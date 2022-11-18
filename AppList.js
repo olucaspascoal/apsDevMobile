@@ -27,13 +27,13 @@ export default function AppList() {
     <>
       <h2> Estados </h2>
 
-      <div className='lista'>
+      <div className='lista' style={styles.container}>
         {Estados.map(estado => <div className={estado.id}> {estado.nome} </div>)}  
       </div>
 
       <h2> Municípios do Rio de Janeiro </h2>
 
-      <div className='lista'>
+      <div className='lista' style={styles.container}>
         {MunicipiosRJ.map(estado => <div className={estado.id}> {estado.nome} </div>)}  
       </div>
     </>
@@ -43,7 +43,7 @@ export default function AppList() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#D9FF46',
+    margin: '0 2rem',
     alignItems: 'center',
     justifyContent: 'center',
   },

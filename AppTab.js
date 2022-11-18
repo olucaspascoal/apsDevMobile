@@ -31,12 +31,12 @@ function AppTab() {
                 }}
               />
                 <Screen 
-                  name="Login" 
+                  name="Endereços" 
                   component={AppList} 
                   options={{
-                    tabBarLabel: 'Login',
+                    tabBarLabel: 'Endereços',
                     tabBarIcon: ({ color, size }) => (
-                      <MaterialCommunityIcons name="login" color={color} size={size} />
+                      <MaterialCommunityIcons name="map-marker" color={color} size={size} />
                     ),
                   }}
                 />
