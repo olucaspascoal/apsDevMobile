@@ -1,7 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, Image, Button, ImageBackground, View, Alert, Navigate, BrowserRouter, Routes, Route } from 'react-native';
-import backgorund from "./assets/bg.jpg";
-import Login from "./src/pages/Login.js";
+import { StyleSheet, View } from 'react-native';
+
 
 import AppTab from './AppTab';
 
